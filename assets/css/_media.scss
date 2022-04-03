@@ -1,0 +1,121 @@
+@media (max-width: 999px) {
+  .navbar {
+    .hamburger {
+      display: block !important;
+    }
+
+    &.scrolled {
+      .navbar-nav {
+        top: 70px !important;
+      }
+    }
+
+    .navbar-nav {
+      width: 100%;
+      height: 100vh;
+      position: absolute;
+      top: 110px;
+      z-index: 999;
+      flex-direction: column !important;
+      justify-content: flex-start;
+      background-color: #fff;
+      padding: 20px 0px;
+      transition: all .3s linear;
+      
+      li {
+        width: 100%;
+        margin: 0px 0px 20px 0px !important;
+        text-align: center;
+      }
+    }
+  }
+
+  .about-us .box {
+    flex-direction: column-reverse !important;
+    background-color: #f7f8fd;
+    border-radius: 30px !important;
+    overflow: hidden;
+
+    .image-content, .content{
+      width: 100% !important;
+    }
+
+    .content {
+      padding: 20px 10px !important;
+      border-radius: 0px 0px 20px 20px;
+    }
+  }
+
+  header {
+    padding-top: 180px !important;
+
+    .content {
+      width: 100% !important;
+    }
+
+    .image-content {
+      height: 350px !important;
+    }
+  }
+
+  .projects .heading p {
+    width: 100% !important;
+  }
+
+  .projects .image-content.large-img,
+  .projects .image-content {
+    height: 350px !important;
+  }
+
+  .contact-message {
+    &::before {
+      background-size: cover !important;
+      background-position: left !important;
+      opacity: .3;
+    }
+
+    .content .form-contain {
+      width: 100% !important;
+      
+      .form-group .from-btn {
+        width: 140px !important;
+      }
+    }
+  }
+
+  footer {
+    .content .footer-nav {
+      flex-wrap: wrap;
+
+      li {
+        margin-inline-end: 15px !important;
+
+        a {
+          font-size: 17px !important;
+          padding-left: 0px;
+          padding-right: 0px !important;
+        }
+      }
+    }
+  }
+
+  .all-service-data .heading {
+    width: 100%;
+  }
+
+  .about .header-img,
+  .all-service-data .image-content {
+    height: 300px;
+  }
+
+  .contact-us  {
+    padding-bottom: 50px !important;
+    .data-contain {
+      width: 100% !important;
+    }
+
+    .image-content {
+      height: 320px !important;
+    }
+  }
+}
